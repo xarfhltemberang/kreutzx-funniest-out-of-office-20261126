@@ -8,8 +8,8 @@ and deterministic on every run.
 import os
 
 ENTRY = (
-    "I'm on holiday. My inbox is in the care of the hotel minibar \u2014 "
-    "it charged everything to my room and answered nothing."
+    "I'm on holiday. I left my inbox with the hotel minibar. "
+    "It replied to nothing and still charged me."
 )
 
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "/output/entry.txt")
